@@ -1,0 +1,7 @@
+h1. Peer 2 Peer University "Introduction to Ruby and Rails" Coursework
+
+The coursework is written in "Textile":http://en.wikipedia.org/wiki/Textile_%28markup_language%29.
+
+The generated pages are available on "Github Pages":http://alindeman.github.com/p2pu-rubyrails/
+
+Feel free to fork the project and submit a pull request ... or file an issue if you see an error or want to suggest an improvement.

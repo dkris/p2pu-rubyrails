@@ -1,0 +1,50 @@
+h1. Installing Ruby
+
+h2. Windows
+
+Install Ruby 1.9.2 using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
+
+h2. Mac
+
+*TODO:* How to do this with rvm?
+
+h2. Linux
+
+Using your distribution's package manager, install *git* and *curl*
+
+*DO NOT* install Ruby or Rails using your distribution's package manager.
+
+After installing git and curl, run the following the command to install *rvm*, Ruby Version Manager:
+
+pre. bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+
+Add the following line to your *~/.bashrc* file (or your other shell-specific profile file):
+
+pre. [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+Run the following command and execute the commands listed under "For Ruby (MRI & ree) you should install the following OS dependencies:"
+
+pre. rvm notes
+
+For instance, on Ubuntu Linux, run the following command:
+
+pre. aptitude install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev autoconf
+
+With all of the dependencies satisfied, run the following command to install Ruby:
+
+pre. rvm install 1.9.2
+
+Finally, make that version of Ruby the default:
+
+pre. rvm use --default 1.9.2
+
+h1. Installing VirtualBox
+
+All participants will use a Linux virtual machine preconfigured with a Ruby on Rails environment.
+
+Install the latest version of VirtualBox, available on the "VirtualBox download page":http://www.virtualbox.org/wiki/Downloads.  Download the correct version for your operating system.
+
+VirtualBox is freely available under the "VirtualBox Personal Use and Evaluation License":http://www.virtualbox.org/wiki/VirtualBox_PUEL.
+
+h1. Installing Engine Yard-created virtual machine
+

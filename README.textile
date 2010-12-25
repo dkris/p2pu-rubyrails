@@ -1,0 +1,24 @@
+h1. Peer 2 Peer University "Introduction to Ruby and Rails" Syllabus
+
+h2. Week 1
+* Installing Engine Yard-created virtual machine for Rails development
+
+h2. Week 2
+
+h2. Week 3
+
+h2. Week 4
+
+h2. Week 5
+
+h2. Week 6
+
+h2. Week 6
+
+h2. Week 7
+
+h2. Week 8
+
+h2. Week 9
+
+h2. Week 10

@@ -2,17 +2,19 @@
 layout: default
 title: Week 1
 ---
-h1. Installing Ruby
+h1. Week 1 Coursework
 
-h2. Windows
+h2. Installing Ruby
+
+h3. Windows
 
 Install Ruby 1.9.2 using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
 
-h2. Mac
+h3. Mac
 
 *TODO:* How to do this with rvm?
 
-h2. Linux
+h3. Linux
 
 Using your distribution's package manager, install *git* and *curl*
 
@@ -42,7 +44,7 @@ Finally, make that version of Ruby the default:
 
 pre. rvm use --default 1.9.2
 
-h1. Installing VirtualBox
+h2. Installing VirtualBox
 
 All participants will use a Linux virtual machine preconfigured with a Ruby on Rails environment.
 
@@ -50,5 +52,5 @@ Install the latest version of VirtualBox, available on the "VirtualBox download 
 
 VirtualBox is freely available under the "VirtualBox Personal Use and Evaluation License":http://www.virtualbox.org/wiki/VirtualBox_PUEL.
 
-h1. Installing Engine Yard-created virtual machine
+h2. Installing Engine Yard-created virtual machine
 

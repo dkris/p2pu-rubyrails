@@ -10,6 +10,8 @@ h3. Windows
 
 Install Ruby *1.9.2* using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
 
+Install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* (using the Windows installer).
+
 h3. Mac
 
 Ruby and RubyGems are already preinstalled on recent Mac OS versions.  The versions that come preinstalled are not recommended for use in development, but since the course will use a virtual machine (described later), they will suffice.  No further action is required at this point.
@@ -68,7 +70,7 @@ Install VirtualBox *3.2*, available on the "VirtualBox download page":http://www
 
 VirtualBox is freely available under the "VirtualBox Personal Use and Evaluation License":http://www.virtualbox.org/wiki/VirtualBox_PUEL.
 
-h2. Installing Preconfigured VM
+h2. Installing the Rails Environment
 
 Open a command line and run the following command to install *Vagrant*:
 
@@ -76,3 +78,38 @@ Open a command line and run the following command to install *Vagrant*:
 gem install vagrant
 {% endhighlight %}
 
+Download the *"Engine Yard University's Vagrant environment":http://s3.amazonaws.com/EY5/vagrant.zip* and unzip it.
+
+Change directory to the folder where you unzipped *vagrant.zip*:
+
+{% highlight bash %}
+cd /path/to/unzipped/file
+{% endhighlight %}
+
+Load the virtual machine:
+
+{% highlight bash %}
+vagrant box add eyu package.box
+{% endhighlight %}
+
+Start the virtual machine:
+
+{% highlight bash %}
+vagrant up
+{% endhighlight %}
+
+Login to the virtual machine:
+
+{% highlight bash %}
+vagrant ssh
+{% endhighlight %}
+
+*Windows Users:* The _vagrant ssh_ command will cause an error.  To interact with the virtual machine, you need to use *PuTTY* (installed earlier).  Please follow the "Vagrant SSH on Windows instructions":http://vagrantup.com/docs/getting-started/setup/windows.html#ssh to setup and use PuTTY.  Go through the final step and click "Open" to connect to the virtual environment.
+
+Verify that you are in the virtual environment:
+
+{% highlight bash %}
+hostname
+{% endhighlight %}
+
+If you have successfully setup the virtual environment, the output from *hostname* should be *vagrant-ubuntu*.

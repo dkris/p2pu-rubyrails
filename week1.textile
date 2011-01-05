@@ -113,3 +113,15 @@ hostname
 {% endhighlight %}
 
 If you have successfully setup the virtual environment, the output from *hostname* should be *vagrant-ubuntu*.
+
+That is all the setup that is required at this stage in the course.  To teardown the environment, first exit from the SSH session:
+
+{% highlight bash %}
+exit
+{% endhighlight %}
+
+Return to your regular machine's command prompt and type:
+
+{% highlight bash %}
+vagrant destroy
+{% endhighlight %}

@@ -2,7 +2,9 @@
 layout: default
 title: Week 1
 ---
-h1. Week 1 Coursework
+h1. Sign Up Task
+
+*NOTE:* If you get stuck at any point, join the IRC chatroom at "irc.freenode.net/#p2pu-rubyrails":irc://irc.freenode.net#p2pu-rubyrails or post in the "forums":http://p2pu.org/node/13622/forums.
 
 h2. Installing Ruby
 
@@ -10,7 +12,7 @@ h3. Windows
 
 Install Ruby *1.9.2* using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
 
-Install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* (using the Windows installer).
+Install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* using the Windows installer.
 
 h3. Mac
 
@@ -75,7 +77,7 @@ h2. Installing the Rails Environment
 Open a command line and run the following command to install *Vagrant*:
 
 {% highlight bash %}
-gem install vagrant
+gem install vagrant -v 0.6.9
 {% endhighlight %}
 
 Download the *"Engine Yard University's Vagrant environment":http://s3.amazonaws.com/EY5/vagrant.zip* and unzip it.
@@ -106,15 +108,15 @@ vagrant ssh
 
 *Windows Users:* The _vagrant ssh_ command will cause an error.  To interact with the virtual machine, you need to use *PuTTY* (installed earlier).  Please follow the "Vagrant SSH on Windows instructions":http://vagrantup.com/docs/getting-started/setup/windows.html#ssh to setup and use PuTTY.  Go through the final step and click "Open" to connect to the virtual environment.
 
-Verify that you are in the virtual environment:
+_*TASK:* So I can verify that you correctly setup the environment, run the following command and send the output, along with your to P2PU username, to <a href="mailto:&#112;&#050;&#112;&#117;&#064;&#097;&#110;&#100;&#121;&#108;&#105;&#110;&#100;&#101;&#109;&#097;&#110;&#046;&#099;&#111;&#109;">&#112;&#050;&#112;&#117;&#064;&#097;&#110;&#100;&#121;&#108;&#105;&#110;&#100;&#101;&#109;&#097;&#110;&#046;&#099;&#111;&#109;</a>_.
 
 {% highlight bash %}
 hostname
 {% endhighlight %}
 
-If you have successfully setup the virtual environment, the output from *hostname* should be *vagrant-ubuntu*.
+After you have completed that task, you have successfully setup the environment that the course will use throughout.
 
-That is all the setup that is required at this stage in the course.  To teardown the environment, first exit from the SSH session:
+To teardown, run the following command:
 
 {% highlight bash %}
 exit

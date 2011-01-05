@@ -1,0 +1,31 @@
+.document-content, .global-navigation {
+  margin-left: 250px;
+  display: block;
+}
+
+.document-navigation {
+  float: left;
+  width: 230px;
+  border: 1px black solid;
+  padding: 4px;
+  position: fixed;
+}
+
+.toc-H1 {
+  display: block;
+}
+
+.toc-H2 {
+  display: block;
+  margin-left: 10px;
+}
+
+.toc-H3 {
+  display: block;
+  margin-left: 20px;
+}
+
+.toc-H4 {
+  display: block;
+  margin-left: 30px;
+}

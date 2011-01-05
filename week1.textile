@@ -8,49 +8,71 @@ h2. Installing Ruby
 
 h3. Windows
 
-Install Ruby 1.9.2 using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
+Install Ruby *1.9.2* using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
 
 h3. Mac
 
-*TODO:* How to do this with rvm?
+Ruby and RubyGems are already preinstalled on recent Mac OS versions.  The versions that come preinstalled are not recommended for use in development, but since the course will use a virtual machine (described later), they will suffice.  No further action is required at this point.
 
 h3. Linux
 
-Using your distribution's package manager, install *git* and *curl*
+Using your distribution's package manager, install *git* and *curl*.  For instance, on Ubuntu, run the following at the command line:
+
+{% highlight bash %}
+apt-get install git curl
+{% endhighlight %}
 
 *DO NOT* install Ruby or Rails using your distribution's package manager.
 
 After installing git and curl, run the following the command to install *rvm*, Ruby Version Manager:
 
-pre. bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+{% highlight bash %}
+bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+{% endhighlight %}
 
 Add the following line to your *~/.bashrc* file (or your other shell-specific profile file):
 
-pre. [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+{% highlight bash %}
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+{% endhighlight %}
 
 Run the following command and execute the commands listed under "For Ruby (MRI & ree) you should install the following OS dependencies:"
 
-pre. rvm notes
+{% highlight bash %}
+rvm notes
+{% endhighlight %}
 
 For instance, on Ubuntu Linux, run the following command:
 
-pre. aptitude install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev autoconf
+{% highlight bash %}
+aptitude install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev autoconf
+{% endhighlight %}
 
 With all of the dependencies satisfied, run the following command to install Ruby:
 
-pre. rvm install 1.9.2
+{% highlight bash %}
+rvm install 1.9.2
+{% endhighlight %}
 
 Finally, make that version of Ruby the default:
 
-pre. rvm use --default 1.9.2
+{% highlight bash %}
+rvm use --default 1.9.2
+{% endhighlight %}
 
 h2. Installing VirtualBox
 
-All participants will use a Linux virtual machine preconfigured with a Ruby on Rails environment.
+To make sure everyone uses the same environment, this course will use a Linux virtual machine preconfigured with a Ruby on Rails environment.
 
-Install the latest version of VirtualBox, available on the "VirtualBox download page":http://www.virtualbox.org/wiki/Downloads.  Download the correct version for your operating system.
+Install VirtualBox *3.2*, available on the "VirtualBox download page":http://www.virtualbox.org/wiki/Download_Old_Builds_3_2.  Download the correct version for your operating system.
 
 VirtualBox is freely available under the "VirtualBox Personal Use and Evaluation License":http://www.virtualbox.org/wiki/VirtualBox_PUEL.
 
-h2. Installing Engine Yard-created virtual machine
+h2. Installing Preconfigured VM
+
+Open a command line and run the following command to install *Vagrant*:
+
+{% highlight bash %}
+gem install vagrant
+{% endhighlight %}
 

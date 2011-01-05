@@ -12,22 +12,17 @@
 }
 
 .toc-H1 {
-  display: block;
+  display: none;
 }
 
 .toc-H2 {
   display: block;
-  margin-left: 10px;
+  font-weight: bolder;
 }
 
 .toc-H3 {
   display: block;
-  margin-left: 20px;
-}
-
-.toc-H4 {
-  display: block;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 code {

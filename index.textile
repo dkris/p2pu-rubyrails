@@ -5,7 +5,7 @@ title: P2PU "Introduction to Ruby and Rails" Syllabus
 h1. Peer 2 Peer University "Introduction to Ruby and Rails" Syllabus
 
 "Sign Up Task":signup-task.html
-"Week 1":week1.html
+Week 1
 Week 2
 Week 3
 Week 4

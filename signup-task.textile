@@ -14,9 +14,13 @@ Install Ruby *1.9.2* using the installer available on the "RubyInstaller Downloa
 
 Install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* using the Windows installer.
 
+Proceed to the next step below.
+
 h3. Mac
 
-Ruby and RubyGems are already preinstalled on recent Mac OS versions.  The versions that come preinstalled are not recommended for use in development, but since the course will use a virtual machine (described later), they will suffice.  No further action is required at this point.
+Ruby and RubyGems are already preinstalled on recent Mac OS versions.  The versions that come preinstalled are not recommended for use in development, but since the course will use a virtual machine (described later), they will suffice.
+
+Proceed to the next step below.
 
 h3. Linux
 

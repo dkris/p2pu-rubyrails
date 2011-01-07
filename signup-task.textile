@@ -118,6 +118,8 @@ _*TASK:* So I can verify that you correctly setup the environment, run the follo
 hostname
 {% endhighlight %}
 
+_*TASK:* Also in your email, include a program in your language of choice that accepts a sentence and reverses the words.  For example: given "I like dogs" the program should output "dogs like I"_.
+
 After you have completed that task, you have successfully setup the environment that the course will use throughout.
 
 To teardown, run the following command:

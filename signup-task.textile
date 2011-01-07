@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Week 1
+title: Sign Up Task
 ---
 h1. Sign Up Task
 

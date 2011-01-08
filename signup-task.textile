@@ -98,6 +98,8 @@ Load the virtual machine:
 vagrant box add eyu package.box
 {% endhighlight %}
 
+*Windows Users:* If at any point you receive an error when using vagrant, you may need to follow the directions "in this email":http://groups.google.com/group/vagrant-up/msg/2328acdd86577fd9 to reinstall the JSON gem.  Thanks Tyler Cipriani for the tip!
+
 Start the virtual machine:
 
 {% highlight bash %}

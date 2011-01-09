@@ -10,7 +10,7 @@ h2. Installing Ruby
 
 h3. Windows
 
-Install Ruby *1.9.2* using the installer available on the "RubyInstaller Downloads Page":http://rubyinstaller.org/downloads/
+Install JRuby using the installer available "the JRuby site":http://jruby.org/download.  Make sure to download the x64 version if you are running a 64-bit version of Windows; if not, download the plain Windows Executable.
 
 Install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* using the Windows installer.
 

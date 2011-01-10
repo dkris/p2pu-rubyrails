@@ -4,69 +4,7 @@ title: Sign Up Task
 ---
 h1. Sign Up Task
 
-*NOTE:* If you get stuck at any point, join the IRC chatroom at "irc.freenode.net/#p2pu-rubyrails":irc://irc.freenode.net#p2pu-rubyrails or post in the "forums":http://p2pu.org/node/13622/forums.
-
-h2. Installing Ruby
-
-h3. Windows
-
-Install JRuby using the installer available on "the JRuby site":http://jruby.org/download.  Make sure to download the x64 version if you are running a 64-bit version of Windows; if not, download the plain Windows Executable.
-
-Install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* using the Windows installer.
-
-Proceed to the next step below.
-
-h3. Mac
-
-Ruby and RubyGems are already preinstalled on recent Mac OS versions.  The versions that come preinstalled are not recommended for use in development, but since the course will use a virtual machine (described later), they will suffice.
-
-Proceed to the next step below.
-
-h3. Linux
-
-Using your distribution's package manager, install *git* and *curl*.  For instance, on Ubuntu, run the following at the command line:
-
-{% highlight bash %}
-apt-get install git curl
-{% endhighlight %}
-
-*DO NOT* install Ruby or Rails using your distribution's package manager.
-
-After installing git and curl, run the following the command to install *rvm*, Ruby Version Manager:
-
-{% highlight bash %}
-bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
-{% endhighlight %}
-
-Add the following line to your *~/.bashrc* file (or your other shell-specific profile file):
-
-{% highlight bash %}
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-{% endhighlight %}
-
-Run the following command and execute the commands listed under "For Ruby (MRI & ree) you should install the following OS dependencies:"
-
-{% highlight bash %}
-rvm notes
-{% endhighlight %}
-
-For instance, on Ubuntu Linux, run the following command:
-
-{% highlight bash %}
-apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev autoconf
-{% endhighlight %}
-
-With all of the dependencies satisfied, run the following command to install Ruby:
-
-{% highlight bash %}
-rvm install 1.9.2
-{% endhighlight %}
-
-Finally, make that version of Ruby the default:
-
-{% highlight bash %}
-rvm use --default 1.9.2
-{% endhighlight %}
+*NOTE:* If you get stuck at any point, join the IRC chatroom at "irc.freenode.net#p2pu-rubyrails":irc://irc.freenode.net#p2pu-rubyrails or post in the "forums":http://p2pu.org/node/13622/forums.
 
 h2. Installing VirtualBox
 
@@ -76,13 +14,24 @@ Install VirtualBox *3.2*, available on the "VirtualBox download page":http://www
 
 VirtualBox is freely available under the "VirtualBox Personal Use and Evaluation License":http://www.virtualbox.org/wiki/VirtualBox_PUEL.
 
-h2. Installing the Rails Environment
+h2. Installing Ruby &amp; Vagrant
 
-Open a command line and run the following command to install *Vagrant*:
+Follow the appropriate documentation for your operating system to install Ruby and related dependencies:
+
+* "Windows [32-bit]":http://vagrantup.com/docs/getting-started/setup/windows.html
+* "Windows [64-bit]":http://vagrantup.com/docs/getting-started/setup/windows_x64.html
+* "Mac OS X":http://vagrantup.com/docs/getting-started/setup/mac.html
+* "Linux [Ubuntu]":http://vagrantup.com/docs/getting-started/setup/ubuntu.html
+
+*Windows Users*: Also install *"PuTTY":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html* using the Windows installer.
+
+After following that guide, install the *vagrant* gem (library) by running the following at the command line:
 
 {% highlight bash %}
 gem install vagrant -v 0.6.9
 {% endhighlight %}
+
+h2. Installing the Rails Environment
 
 Download the *"Engine Yard University's Vagrant environment":http://s3.amazonaws.com/EY5/vagrant.zip* and unzip it.
 

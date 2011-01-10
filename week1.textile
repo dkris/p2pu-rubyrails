@@ -1,0 +1,82 @@
+---
+layout: default
+title: Week 1
+---
+h1. Week 1
+
+h2. Course Nuts and Bolts
+
+h3. Google Group
+
+Make sure you are a part of the "Google Group":http://groups.google.com/group/p2pu-rubyrails-jan2011 that will be used for communication throughout the course.  The P2PU forums *will not* be used.
+
+Participation in group discussions via the Google Group will be a major part of the course.  You are encouraged to read all messages posted, but if the traffic becomes too high, you may "change your membership settings":http://groups.google.com/group/p2pu-rubyrails-jan2011/subscribe to receive an abridged or digest email.
+
+To start a new topic on the Google Group, send an email to "p2pu-rubyrails-jan2011@googlegroups.com":p2pu-rubyrails-jan2011@googlegroups.com.  However, if you a replying to a message, please try to directly reply to that email so the conversation remains intact.
+
+*TASK:* Post an introduction about yourself and define a personal learning goal. *TODO: Insert URL to message*.
+
+h3. Internet Relay Chat
+
+The course will also use Internet Relay Chat (IRC) for real-time communication and discussion.  While you are not required to join the chat room, it may enhance your learning and it will often be the best way to work through problems with others in real time.
+
+To join IRC, "download a desktop client":http://www.irc.org/links.html or "use the web-based application":http://webchat.freenode.net/.
+
+After logging in to the server, join the *#p2pu-rubyrails* channel.  If you installed a desktop client, this "direct link to the channel":irc://irc.freenode.net#p2pu-rubyrails may work.
+
+h2. Peer Learning
+
+This course will not be run like any University course you may have taken, though the amount of time you spend may be similar.  If you have not already, please make sure you "understand how P2PU works":http://p2pu.org/about and are fully willing to learn by interacting with others, rather than having knowledge doled out to you by a professor figure!
+
+This course has the potential to be a great learning experience for everyone, but it relies heavily on your buy-in and self-motivation.
+
+h2. Introduction & History of Ruby
+
+During the first week, we will get acquainted with Ruby.  While the course will eventually move toward web development with Ruby on Rails (sometimes abbreviated RoR or Rails), Ruby itself is a powerful general-purpose language.
+
+*ASSIGNMENT:* Read "the history of the Ruby programming language":http://www.ruby-lang.org/en/about/. (~10 minutes)
+
+h2. Ruby Tutorials
+
+If you have used an imperative, object-oriented language (C++, Java, C#, etc...), Ruby's syntax may look very similar.  Beware, though, Ruby has many powerful constructs that are either not present in other languages or are not as idiomatic.
+
+For now, we will start by learning basic Ruby syntax and more toward idioms later.
+
+*ASSIGNMENT:* Complete all of the tutorials on "tryruby.org":http://tryruby.org/.  To complete the first tutorial, type *help* and follow the prompts.  Try not to rush, and feel free to experiment beyond the confines of the tutorial. (~20-30 minutes)
+
+The interactive shell can sometimes become unresponsive due to network oddness or a syntax problem; if this happens, simply type *reset* and retype your statement.
+
+There are a total of 8 tutorial sections on *tryruby.org*.  If you cannot complete every section in one sitting, simply remember the last section you completed.  When you return later, type *help X* where X is that section (e.g., *help 3*).
+
+If you have trouble, discuss it on the Google Group or IRC channel.  If you have some extra time, try more commands in the interactive shell and share anything you found particularly intriguing with others.
+
+h2. Ruby in Twenty Minutes
+
+The *tryruby.org* site allows you to dive right into writing Ruby code, albeit simple.  Let's take a step back now and read a more formalized introduction.
+
+*ASSIGNMENT:* Read the "Ruby in Twenty Minutes":http://www.ruby-lang.org/en/documentation/quickstart/ quickstart guide at *ruby-lang.org*. (~20 minutes)
+
+If you do not understand a certain concept or code example, discuss it on the Google Group or IRC channel.
+
+h2. Choosing a Programmer's Editor
+
+While the *tryruby.org* site is great for small examples, we'll quickly move to larger programs spread across multiple files.  For this, a programmer's editor that runs on your local computer is required.
+
+You may already have a favorite programmer's editor.  However, if you do not, or were thinking about trying other editors anyway, spend some time trying and considering these options common in the Ruby community:
+* "Eclipse":http://eclipse.org/ - Integrated development environment.
+** "Aptana":http://aptana.com/products/radrails/download provides a free Eclipse plugin for Ruby and Rails development.
+** "Eclipse Dynamic Languages Toolkit":http://www.eclipse.org/dltk/ appears to be another useful toolkit for Ruby development in Eclipse.
+* "NetBeans":http://netbeans.org/ - Integrated development environment.
+** Ruby and Rails support "available":http://netbeans.org/features/ruby/index.html.
+* "Redcar":http://redcareditor.com/ - Editor itself written in Ruby.  Still under development, but has the potential to be very nice.  Clean, simple interface.
+* "Notepad++":http://notepad-plus-plus.org/ - Advanced source code editor with a lightweight interface similar to Notepad (Windows only).
+* "Vim":http://www.vim.org/ - Steep learning curve, but very powerful general purpose editor.
+* "Emacs":http://www.gnu.org/software/emacs/ - Steep learning curve, but very powerful general purpose editor.
+
+These editors are not free (as in cost), but are popular in the Ruby world:
+* "Textmate":http://macromates.com/ (Mac OS only)
+* "RubyMine":http://www.jetbrains.com/ruby/
+
+h2. Running Ruby Programs Locally
+
+h2. Programming Assignment

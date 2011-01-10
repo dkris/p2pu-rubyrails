@@ -1,0 +1,111 @@
+---
+layout: default
+title: Week 2
+---
+h1. Week 2
+
+h2. Ruby Koans
+
+h3. Introduction
+
+The folks at "EdgeCase":http://edgecase.com/ created a series of partially-completed Ruby scripts called "Ruby Koans":http://rubykoans.com/.
+
+They also write automated unit tests for these scripts, all of which fail when you first download them.  Your job is to modify the source files (not the tests!) to make all the tests pass.
+
+Along the way, you will learn Ruby syntax and culture.
+
+h3. Downloading the Koans
+
+We will run the Koans using the EngineYard Virtual Machine created during the "sign up task":signup-task.html.
+
+First, using a command prompt, navigate to the directory where you unzipped the virtual machine files:
+
+{% highlight bash %}
+cd /path/to/unzipped/files
+{% endhighlight %}
+
+Restart the virtual machine:
+
+{% highlight bash %}
+vagrant up
+{% endhighlight %}
+
+Login to the virtual machine (*Windows users:* "use PuTTY":http://vagrantup.com/docs/getting-started/setup/windows.html#ssh):
+
+{% highlight bash %}
+vagrant ssh
+{% endhighlight %}
+
+Install *git*, a version control system, in the virtual machine:
+
+{% highlight bash %}
+sudo apt-get install git-core # hit "y" when prompted
+{% endhighlight %}
+
+Download the Ruby Koans:
+
+{% highlight bash %}
+git clone https://github.com/edgecase/ruby_koans.git
+{% endhighlight %}
+
+Navigate into the directory:
+
+{% highlight bash %}
+cd ruby_koans
+{% endhighlight %}
+
+Run *rake* and note the output:
+
+{% highlight bash %}
+rake
+{% endhighlight %}
+
+<pre>
+AboutAsserts#test_assert_truth has damaged your karma.
+
+The Master says:
+You have not yet reached enlightenment.
+
+The answers you seek...
+Failed assertion, no message given.
+
+Please meditate on the following code:
+/shared/ruby_koans/koans/about_asserts.rb:10:in `test_assert_truth'
+
+mountains are merely mountains
+your path thus far [X_________________________________________________] 0/274
+</pre>
+
+This means that the *test_assert_truth* test is failing and is located in the *about_asserts.rb* file.
+
+Your first job is to fix it!
+
+To do so, open your favorite programmer's editor on your desktop, navigate to the *shared* directory where the virtual machine is located, then into the *ruby_koans* directory.  Finally, navigate into the *koans* directory and open the *about_asserts.rb* file.
+
+Find the *test_assert_truth* method.  By reading the code comments and only modifying the body of this one method, fix it!
+
+After you have fixed that one test, switch to your command prompt connected to the virtual machine and rerun *rake*.  If you fixed the test, you should see:
+
+<pre>
+AboutAsserts#test_assert_truth has expanded your awareness.
+AboutAsserts#test_assert_with_message has damaged your karma.
+
+The Master says:
+You have not yet reached enlightenment.
+You are progressing. Excellent. 1 completed.
+
+The answers you seek...
+This should be true -- Please fix this
+
+Please meditate on the following code:
+/shared/ruby_koans/koans/about_asserts.rb:16:in `test_assert_with_message'
+
+learn the rules so you know how to break them properly
+your path thus far [.X________________________________________________] 1/274
+</pre>
+
+This means that you fixed the *test_assert_truth* method, and the test you must fix is *test_assert_with_message*, also from *about_asserts.rb*.
+
+Your task this week is to complete all 274 of the koans.
+
+As always, please use the Google Group and the IRC channel for assistance.  If you help another participant, try to make sure he or she fully understands the concepts, rather than simply providing the solution with no other context.

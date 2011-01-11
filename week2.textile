@@ -104,7 +104,7 @@ learn the rules so you know how to break them properly
 your path thus far [.X________________________________________________] 1/274
 </pre>
 
-This means that you fixed the *test_assert_truth* method, and the test you must fix is *test_assert_with_message*, also from *about_asserts.rb*.
+This means that you fixed the *test_assert_truth* method, and the test you must fix next is *test_assert_with_message*, also from *about_asserts.rb*.
 
 Your task this week is to complete all 274 of the koans.
 

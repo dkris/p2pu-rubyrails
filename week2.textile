@@ -8,15 +8,19 @@ h2. Ruby Koans
 
 h3. Introduction
 
-The folks at "EdgeCase":http://edgecase.com/ created a series of partially-completed Ruby scripts called "Ruby Koans":http://rubykoans.com/.
+The folks at "EdgeCase":http://edgecase.com/ have created a series of partially-completed Ruby scripts called "Ruby Koans":http://rubykoans.com/.
 
 The scripts are partially-completed unit tests, all of which are broken ("red") to start.  Your job will be to modify the tests, one by one, to make them all pass ("go green").
+
+The "koans homepage":http://rubykoans.com/ explains more:
+
+bq. Some koans simply need to have the correct answer substituted for an incorrect one. Some, however, require you to supply your own answer. If you see the method __ (a double underscore) listed, it is a hint to you to supply your own code in order to make it work correctly.
 
 Along the way, you will learn Ruby syntax, idioms, and culture.
 
 h3. Downloading the Koans
 
-We will run the Koans using the EngineYard Virtual Machine created during the "sign up task":signup-task.html.
+We will run the koans using the EngineYard Virtual Machine created during the "sign up task":signup-task.html.
 
 First, using a command prompt, navigate to the directory where you unzipped the virtual machine files:
 
@@ -108,4 +112,4 @@ This means that you fixed the *test_assert_truth* method, and the test you must 
 
 Your task this week is to complete all 274 of the koans.
 
-As always, please use the Google Group and the IRC channel for assistance.  If you help another participant, try to make sure he or she fully understands the concepts, rather than simply providing the solution with no other context.
+As always, please use the Google Group and the IRC channel for assistance.  If you help another participant, try to make sure he or she fully understands the concepts, rather than simply giving away the solution with no other context.

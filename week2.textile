@@ -10,9 +10,9 @@ h3. Introduction
 
 The folks at "EdgeCase":http://edgecase.com/ created a series of partially-completed Ruby scripts called "Ruby Koans":http://rubykoans.com/.
 
-They also write automated unit tests for these scripts, all of which fail when you first download them.  Your job is to modify the source files (not the tests!) to make all the tests pass.
+The scripts are partially-completed unit tests, all of which are broken ("red") to start.  Your job will be to modify the tests, one by one, to make them all pass ("go green").
 
-Along the way, you will learn Ruby syntax and culture.
+Along the way, you will learn Ruby syntax, idioms, and culture.
 
 h3. Downloading the Koans
 

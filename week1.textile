@@ -38,9 +38,11 @@ During the first week, we will get acquainted with Ruby.  While the course will 
 
 h2. Ruby Tutorials
 
-If you have used an imperative, object-oriented language (C++, Java, C#, etc...), Ruby's syntax may look very similar.  Beware, though, Ruby has many powerful constructs that are either not present in other languages or are not as idiomatic.
+If you have used an imperative, object-oriented language (C++, Java, C#, etc...), Ruby's syntax may look very similar.  Beware, though, Ruby has many powerful constructs that are either not present in other languages or are more idiomatic.
 
 For now, we will start by learning basic Ruby syntax and more toward idioms later.
+
+h3. tryruby.org
 
 *ASSIGNMENT:* Complete all of the tutorials on "tryruby.org":http://tryruby.org/.  To complete the first tutorial, type *help* and follow the prompts.  Try not to rush, and feel free to experiment beyond the confines of the tutorial. (~20-30 minutes)
 
@@ -50,7 +52,7 @@ There are a total of 8 tutorial sections on *tryruby.org*.  If you cannot comple
 
 If you have trouble, discuss it on the Google Group or IRC channel.  If you have some extra time, try more commands in the interactive shell and share anything you found particularly intriguing with others.
 
-h2. Ruby in Twenty Minutes
+h3. Ruby in Twenty Minutes
 
 The *tryruby.org* site allows you to dive right into writing Ruby code, albeit simple.  Let's take a step back now and read a more formalized introduction.
 
